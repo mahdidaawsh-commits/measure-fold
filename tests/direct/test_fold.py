@@ -20,6 +20,12 @@ def test_mixed_units_outlier_and_quorum(fold, direct_vm):
     assert [row["normalized_nm"] for row in latest["report"]["sources"]] == [12000000, 12000000, 12700000, 180000000]
 
 
+def test_cli_parsed_source_array(fold, direct_vm):
+    mock_day(direct_vm, "2026-10-03")
+    fold.sample_day("2026-10-03", sources("2026-10-03"))
+    assert fold.get_latest()["outcome"]["median_nm"] == 12000000
+
+
 def test_missing_source_blocks_quorum_and_later_round_recovers(fold, direct_vm):
     sample(fold, direct_vm, "2026-10-03")
     sample(fold, direct_vm, "2026-10-04")

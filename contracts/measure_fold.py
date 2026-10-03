@@ -31,10 +31,13 @@ def _valid_date(value: str) -> bool:
 
 
 def _sources(text: str, repo: str, date: str) -> list:
-    try:
-        rows = json.loads(text)
-    except ValueError:
-        _fail("[EXPECTED] Invalid sources JSON")
+    if isinstance(text, list):
+        rows = text
+    else:
+        try:
+            rows = json.loads(text)
+        except (ValueError, TypeError):
+            _fail("[EXPECTED] Invalid sources JSON")
     if not isinstance(rows, list) or not 3 <= len(rows) <= MAX_SOURCES:
         _fail("[EXPECTED] Require 3..5 sources")
     seen = []
