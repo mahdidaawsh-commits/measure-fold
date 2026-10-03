@@ -1,0 +1,97 @@
+{
+  "network": "studionet",
+  "chain_id": 61999,
+  "contract_address": "0x2516E6d7F49e8125A026874A4291a0858689d1bC",
+  "source_sha256": "720f4a9b9030716e80ceb483dfec3e550338eb1e91c3eac6ff659dda7904bcbc",
+  "source_revision": "227401f77483dba2ee346354e1f4f4d58f1129a0",
+  "sources": [
+    {
+      "id": "gauge-a",
+      "url": "https://raw.githubusercontent.com/mahdidaawsh-commits/measure-fold/227401f77483dba2ee346354e1f4f4d58f1129a0/reports/2026-10-05/gauge-a.md",
+      "sha256": "0141e0482939a8d374eee9c9ada08e712bea8b57574c4c140a42b88beb84715a"
+    },
+    {
+      "id": "gauge-b",
+      "url": "https://raw.githubusercontent.com/mahdidaawsh-commits/measure-fold/227401f77483dba2ee346354e1f4f4d58f1129a0/reports/2026-10-05/gauge-b.md",
+      "sha256": "9c3a06d8b238f48967dc9abc7cd4f724e29b0bc4c43f9e145b9a4ea0de5ded82"
+    },
+    {
+      "id": "gauge-c",
+      "url": "https://raw.githubusercontent.com/mahdidaawsh-commits/measure-fold/227401f77483dba2ee346354e1f4f4d58f1129a0/reports/2026-10-05/gauge-c.md",
+      "sha256": "4b839d029c7f4d2a6c7e2b32c4e64a8df3565b0383865872fc070c46c116f7ba"
+    }
+  ],
+  "transactions": [
+    {
+      "action": "deploy",
+      "hash": "0x16ddfc747419579a4599107df2038bc42b11f8a55047ff4273a9b6eafdd672a6"
+    },
+    {
+      "action": "sample_day",
+      "hash": "0x3487cdc1800f4ec6cebcf88a227b905d0c35219672972611f4a6c8621ce84af3"
+    }
+  ],
+  "state": {
+    "last_date": "2026-10-05",
+    "round_count": 3,
+    "source_repo": "mahdidaawsh-commits/measure-fold",
+    "station": "Harbor Basin"
+  },
+  "round": {
+    "outcome": {
+      "date": "2026-10-05",
+      "excluded_indexes": [],
+      "inlier_count": 3,
+      "measured_count": 3,
+      "median_nm": 10160000,
+      "source_root": "57b6c227beac1efdcf70df8951611326b9ddafb880e7de529a63ef576546639e",
+      "station": "Harbor Basin",
+      "status": "READY"
+    },
+    "report": {
+      "sources": [
+        {
+          "decision": "MEASURED",
+          "index": 0,
+          "normalized_nm": 10160000,
+          "quote": "Harbor Basin on 2026-10-05, gauge A recorded an observed daily rainfall total of 10.16 mm.",
+          "unit": "mm",
+          "value": "10.16"
+        },
+        {
+          "decision": "MEASURED",
+          "index": 1,
+          "normalized_nm": 10160000,
+          "quote": "Gauge B's observed daily rainfall total for Harbor Basin on 2026-10-05 was 1.016 cm.",
+          "unit": "cm",
+          "value": "1.016"
+        },
+        {
+          "decision": "MEASURED",
+          "index": 2,
+          "normalized_nm": 10160000,
+          "quote": "Gauge C measured an observed daily rainfall total of 0.4 in for Harbor Basin on 2026-10-05.",
+          "unit": "in",
+          "value": "0.4"
+        }
+      ]
+    },
+    "sources": [
+      {
+        "id": "gauge-a",
+        "sha256": "0141e0482939a8d374eee9c9ada08e712bea8b57574c4c140a42b88beb84715a",
+        "url": "https://raw.githubusercontent.com/mahdidaawsh-commits/measure-fold/227401f77483dba2ee346354e1f4f4d58f1129a0/reports/2026-10-05/gauge-a.md"
+      },
+      {
+        "id": "gauge-b",
+        "sha256": "9c3a06d8b238f48967dc9abc7cd4f724e29b0bc4c43f9e145b9a4ea0de5ded82",
+        "url": "https://raw.githubusercontent.com/mahdidaawsh-commits/measure-fold/227401f77483dba2ee346354e1f4f4d58f1129a0/reports/2026-10-05/gauge-b.md"
+      },
+      {
+        "id": "gauge-c",
+        "sha256": "4b839d029c7f4d2a6c7e2b32c4e64a8df3565b0383865872fc070c46c116f7ba",
+        "url": "https://raw.githubusercontent.com/mahdidaawsh-commits/measure-fold/227401f77483dba2ee346354e1f4f4d58f1129a0/reports/2026-10-05/gauge-c.md"
+      }
+    ]
+  }
+}

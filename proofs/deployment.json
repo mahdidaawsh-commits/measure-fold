@@ -1,0 +1,9 @@
+{
+  "network": "studionet",
+  "chain_id": 61999,
+  "contract_address": "0x2516E6d7F49e8125A026874A4291a0858689d1bC",
+  "source_sha256": "720f4a9b9030716e80ceb483dfec3e550338eb1e91c3eac6ff659dda7904bcbc",
+  "exact_source_match": true,
+  "source_revision": "227401f77483dba2ee346354e1f4f4d58f1129a0",
+  "deployment_transaction": "0x16ddfc747419579a4599107df2038bc42b11f8a55047ff4273a9b6eafdd672a6"
+}

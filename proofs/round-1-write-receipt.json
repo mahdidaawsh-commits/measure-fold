@@ -1,0 +1,185 @@
+{
+  "hash": "0x808b41cb0a01fcd843c82c3fc879d092eb887f8e28603167dc89cc2abb2099cc",
+  "from_address": "0xb0C153447350359cA68D9B0e794bDB8c5B5ba30a",
+  "to_address": "0x2516E6d7F49e8125A026874A4291a0858689d1bC",
+  "data": {
+    "calldata": {
+      "readable": "{\"args\":[\"2026-10-04\",[{\"id\":\"gauge-a\"\"sha256\":\"64a8fca402a2b8c62d98277be0c9b2485cd381683771c29ecc52e25fe6dcb33f\"\"url\":\"https://raw.githubusercontent.com/mahdidaawsh-commits/measure-fold/227401f77483dba2ee346354e1f4f4d58f1129a0/reports/2026-10-04/gauge-a.md\"},{\"id\":\"gauge-b\"\"sha256\":\"1f34038ab7777b42cf0a3d545682a4f30ce14432f205c65df20e408ef2a853d6\"\"url\":\"https://raw.githubusercontent.com/mahdidaawsh-commits/measure-fold/227401f77483dba2ee346354e1f4f4d58f1129a0/reports/2026-10-04/gauge-b.md\"},{\"id\":\"gauge-c\"\"sha256\":\"20bfee0fcdf21d01fb14e880d29a64b75942b2437e24d7972560b09dcd4cb7df\"\"url\":\"https://raw.githubusercontent.com/mahdidaawsh-commits/measure-fold/227401f77483dba2ee346354e1f4f4d58f1129a0/reports/2026-10-04/gauge-c.md\"},],]\"method\":\"sample_day\"}"
+    }
+  },
+  "status": 7,
+  "result": 6,
+  "consensus_data": {
+    "votes": {
+      "0x14402D49f317CE1a2F35BAE01b1804A2A9703dCb": "agree",
+      "0x3D83ab507785b95ca5C208bEc80CCe3D5ca98100": "agree",
+      "0x5310dcF075E0BD47d29B8ec6581F736C767f54D2": "agree",
+      "0xacc2459F341D7a887bcA8FAA62F1EC9378d4Bc67": "idle",
+      "0xec2Fb79cd12255Eb34886CEd7332f27B98DEe658": "disagree"
+    },
+    "leader_receipt": [
+      {
+        "execution_result": "SUCCESS",
+        "genvm_result": {
+          "stderr": "/py/libs/genlayer/gl/_internal/storage.py:21: UserWarning: Detected pickling storage class. Reading storage in nondet mode is not supported\n  warnings.warn(\n",
+          "stdout": "",
+          "raw_error": null,
+          "error_code": null,
+          "error_description": null
+        },
+        "mode": "leader",
+        "vote": null,
+        "calldata": {
+          "readable": "{\"args\":[\"2026-10-04\",[{\"id\":\"gauge-a\"\"sha256\":\"64a8fca402a2b8c62d98277be0c9b2485cd381683771c29ecc52e25fe6dcb33f\"\"url\":\"https://raw.githubusercontent.com/mahdidaawsh-commits/measure-fold/227401f77483dba2ee346354e1f4f4d58f1129a0/reports/2026-10-04/gauge-a.md\"},{\"id\":\"gauge-b\"\"sha256\":\"1f34038ab7777b42cf0a3d545682a4f30ce14432f205c65df20e408ef2a853d6\"\"url\":\"https://raw.githubusercontent.com/mahdidaawsh-commits/measure-fold/227401f77483dba2ee346354e1f4f4d58f1129a0/reports/2026-10-04/gauge-b.md\"},{\"id\":\"gauge-c\"\"sha256\":\"20bfee0fcdf21d01fb14e880d29a64b75942b2437e24d7972560b09dcd4cb7df\"\"url\":\"https://raw.githubusercontent.com/mahdidaawsh-commits/measure-fold/227401f77483dba2ee346354e1f4f4d58f1129a0/reports/2026-10-04/gauge-c.md\"},],]\"method\":\"sample_day\"}"
+        },
+        "eq_outputs": {
+          "0": {
+            "status": "return",
+            "payload": {
+              "readable": "{\"report\":{\"sources\":[{\"decision\":\"MEASURED\"\"index\":0\"normalized_nm\":0\"quote\":\"Gauge A measured an observed daily rainfall total of 0.0 mm for Harbor Basin on 2026-10-04.\"\"unit\":\"mm\"\"value\":\"0.0\"},{\"decision\":\"MISSING\"\"index\":1\"normalized_nm\":null\"quote\":\"\"\"unit\":\"\"\"value\":\"\"},{\"decision\":\"MEASURED\"\"index\":2\"normalized_nm\":0\"quote\":\"For Harbor Basin on 2026-10-04, gauge C reported an observed daily rainfall total of 0.0 cm.\"\"unit\":\"cm\"\"value\":\"0.0\"},]}\"source_hashes\":[\"64a8fca402a2b8c62d98277be0c9b2485cd381683771c29ecc52e25fe6dcb33f\",\"1f34038ab7777b42cf0a3d545682a4f30ce14432f205c65df20e408ef2a853d6\",\"20bfee0fcdf21d01fb14e880d29a64b75942b2437e24d7972560b09dcd4cb7df\",]}"
+            }
+          }
+        },
+        "result": {
+          "status": "return",
+          "payload": {
+            "readable": "null"
+          }
+        }
+      },
+      {
+        "execution_result": "SUCCESS",
+        "genvm_result": {
+          "stderr": "/py/libs/genlayer/gl/_internal/storage.py:21: UserWarning: Detected pickling storage class. Reading storage in nondet mode is not supported\n  warnings.warn(\n",
+          "stdout": "",
+          "raw_error": null,
+          "error_code": null,
+          "error_description": null
+        },
+        "mode": "validator",
+        "vote": "disagree",
+        "calldata": {
+          "readable": "{\"args\":[\"2026-10-04\",[{\"id\":\"gauge-a\"\"sha256\":\"64a8fca402a2b8c62d98277be0c9b2485cd381683771c29ecc52e25fe6dcb33f\"\"url\":\"https://raw.githubusercontent.com/mahdidaawsh-commits/measure-fold/227401f77483dba2ee346354e1f4f4d58f1129a0/reports/2026-10-04/gauge-a.md\"},{\"id\":\"gauge-b\"\"sha256\":\"1f34038ab7777b42cf0a3d545682a4f30ce14432f205c65df20e408ef2a853d6\"\"url\":\"https://raw.githubusercontent.com/mahdidaawsh-commits/measure-fold/227401f77483dba2ee346354e1f4f4d58f1129a0/reports/2026-10-04/gauge-b.md\"},{\"id\":\"gauge-c\"\"sha256\":\"20bfee0fcdf21d01fb14e880d29a64b75942b2437e24d7972560b09dcd4cb7df\"\"url\":\"https://raw.githubusercontent.com/mahdidaawsh-commits/measure-fold/227401f77483dba2ee346354e1f4f4d58f1129a0/reports/2026-10-04/gauge-c.md\"},],]\"method\":\"sample_day\"}"
+        },
+        "result": {
+          "status": "return",
+          "payload": {
+            "readable": "null"
+          }
+        }
+      }
+    ],
+    "validators": [
+      {
+        "execution_result": "ERROR",
+        "genvm_result": {
+          "stderr": "Validator execution cancelled after quorum",
+          "stdout": "",
+          "raw_error": {
+            "fatal": false,
+            "causes": [
+              "VALIDATOR_QUORUM_REACHED"
+            ]
+          },
+          "error_code": "CONSENSUS_VALIDATOR_QUORUM_REACHED"
+        },
+        "mode": "validator",
+        "vote": "idle"
+      },
+      {
+        "execution_result": "SUCCESS",
+        "genvm_result": {
+          "stderr": "/py/libs/genlayer/gl/_internal/storage.py:21: UserWarning: Detected pickling storage class. Reading storage in nondet mode is not supported\n  warnings.warn(\n",
+          "stdout": "",
+          "raw_error": null,
+          "error_code": null,
+          "error_description": null
+        },
+        "mode": "validator",
+        "vote": "agree"
+      },
+      {
+        "execution_result": "SUCCESS",
+        "genvm_result": {
+          "stderr": "/py/libs/genlayer/gl/_internal/storage.py:21: UserWarning: Detected pickling storage class. Reading storage in nondet mode is not supported\n  warnings.warn(\n",
+          "stdout": "",
+          "raw_error": null,
+          "error_code": null,
+          "error_description": null
+        },
+        "mode": "validator",
+        "vote": "agree"
+      },
+      {
+        "execution_result": "SUCCESS",
+        "genvm_result": {
+          "stderr": "/py/libs/genlayer/gl/_internal/storage.py:21: UserWarning: Detected pickling storage class. Reading storage in nondet mode is not supported\n  warnings.warn(\n",
+          "stdout": "",
+          "raw_error": null,
+          "error_code": null,
+          "error_description": null
+        },
+        "mode": "validator",
+        "vote": "agree"
+      }
+    ]
+  },
+  "gaslimit": 2,
+  "nonce": 2,
+  "created_at": "2026-10-03T10:19:30.003616+00:00",
+  "leader_only": false,
+  "execution_mode": "NORMAL",
+  "origin_address": "0xb0C153447350359cA68D9B0e794bDB8c5B5ba30a",
+  "triggered_on": null,
+  "appeal_validators_timeout": false,
+  "sim_config": {
+    "signed_rollup_transaction": "0xf9040902808307a12094b7278a61aa25c888815afc32ad3cc52ff24fe57580b903a427241a99000000000000000000000000b0c153447350359ca68d9b0e794bdb8c5b5ba30a0000000000000000000000002516e6d7f49e8125a026874a4291a0858689d1bc0000000000000000000000000000000000000000000000000000000000000005000000000000000000000000000000000000000000000000000000000000000300000000000000000000000000000000000000000000000000000000000000a000000000000000000000000000000000000000000000000000000000000002d8f902d5b902d11604617267731554323032362d31302d30341d1e0269643c67617567652d61067368613235368404363461386663613430326132623863363264393832373762653063396232343835636433383136383337373163323965636335326532356665366463623333660375726ccc0868747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f6d616864696461617773682d636f6d6d6974732f6d6561737572652d666f6c642f323237343031663737343833646261326565333436333534653166346634643538663131323961302f7265706f7274732f323032362d31302d30342f67617567652d612e6d641e0269643c67617567652d62067368613235368404316633343033386162373737376234326366306133643534353638326134663330636531343433326632303563363564663230653430386566326138353364360375726ccc0868747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f6d616864696461617773682d636f6d6d6974732f6d6561737572652d666f6c642f323237343031663737343833646261326565333436333534653166346634643538663131323961302f7265706f7274732f323032362d31302d30342f67617567652d622e6d641e0269643c67617567652d63067368613235368404323062666565306663646632316430316662313465383830643239613634623735393432623234333765323464373937323536306230396463643463623764660375726ccc0868747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f6d616864696461617773682d636f6d6d6974732f6d6561737572652d666f6c642f323237343031663737343833646261326565333436333534653166346634643538663131323961302f7265706f7274732f323032362d31302d30342f67617567652d632e6d64066d6574686f645473616d706c655f6461790000000000000000008301e482a06ed2024e47942e0dee6e5cd7cab612bfd7105568892bcc30cdf55003924862e5a02072453c95bba6e72417e6735091e505492c67887b0ae3760a273ac5e25d23dc"
+  },
+  "value_credited": false,
+  "sender": "0xb0C153447350359cA68D9B0e794bDB8c5B5ba30a",
+  "recipient": "0x2516E6d7F49e8125A026874A4291a0858689d1bC",
+  "tx_id": "0x808b41cb0a01fcd843c82c3fc879d092eb887f8e28603167dc89cc2abb2099cc",
+  "activator": "0x4aba638Cf0Cf5249437AaD968fC69dde46ae6BAC",
+  "last_leader": "0xec2Fb79cd12255Eb34886CEd7332f27B98DEe658",
+  "result_name": "MAJORITY_AGREE",
+  "num_of_rounds": "2",
+  "last_round": {
+    "round": "1",
+    "leader_index": "0",
+    "votes_committed": "5",
+    "votes_revealed": "5",
+    "appeal_bond": "0",
+    "rotations_left": "2",
+    "result": 6,
+    "round_validators": [
+      "0xec2Fb79cd12255Eb34886CEd7332f27B98DEe658",
+      "0xacc2459F341D7a887bcA8FAA62F1EC9378d4Bc67",
+      "0x14402D49f317CE1a2F35BAE01b1804A2A9703dCb",
+      "0x3D83ab507785b95ca5C208bEc80CCe3D5ca98100",
+      "0x5310dcF075E0BD47d29B8ec6581F736C767f54D2"
+    ],
+    "validator_votes_hash": [
+      "0x5e7102f42aef571bab6f76e19d6c54f5654323447af1dc9b4d057eb40267fd9f",
+      "0x2c570e2fffbe5717da7783f8e12c40e41032ca58e0c538ecc3770cd6c68469eb",
+      "0xf78d74b3a9232ec512812540f536476a0ed2cdce9c84cdac5088807788181d0d",
+      "0xcb4aff5888c08c821fcb07a6ed6728a5d33bcf32242ad472cc8633a6f7d03fc5",
+      "0x282c9d7c5c82b540b171d5b0349ee2496dc175557ae6262fb43c2b9a79e36340"
+    ],
+    "validator_votes": [
+      2,
+      5,
+      1,
+      1,
+      1
+    ],
+    "validator_votes_name": [
+      "DISAGREE",
+      "IDLE",
+      "AGREE",
+      "AGREE",
+      "AGREE"
+    ]
+  },
+  "type": 2,
+  "status_name": "FINALIZED"
+}

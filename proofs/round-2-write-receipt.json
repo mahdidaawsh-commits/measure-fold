@@ -1,0 +1,180 @@
+{
+  "hash": "0x3487cdc1800f4ec6cebcf88a227b905d0c35219672972611f4a6c8621ce84af3",
+  "from_address": "0xb0C153447350359cA68D9B0e794bDB8c5B5ba30a",
+  "to_address": "0x2516E6d7F49e8125A026874A4291a0858689d1bC",
+  "data": {
+    "calldata": {
+      "readable": "{\"args\":[\"2026-10-05\",[{\"id\":\"gauge-a\"\"sha256\":\"0141e0482939a8d374eee9c9ada08e712bea8b57574c4c140a42b88beb84715a\"\"url\":\"https://raw.githubusercontent.com/mahdidaawsh-commits/measure-fold/227401f77483dba2ee346354e1f4f4d58f1129a0/reports/2026-10-05/gauge-a.md\"},{\"id\":\"gauge-b\"\"sha256\":\"9c3a06d8b238f48967dc9abc7cd4f724e29b0bc4c43f9e145b9a4ea0de5ded82\"\"url\":\"https://raw.githubusercontent.com/mahdidaawsh-commits/measure-fold/227401f77483dba2ee346354e1f4f4d58f1129a0/reports/2026-10-05/gauge-b.md\"},{\"id\":\"gauge-c\"\"sha256\":\"4b839d029c7f4d2a6c7e2b32c4e64a8df3565b0383865872fc070c46c116f7ba\"\"url\":\"https://raw.githubusercontent.com/mahdidaawsh-commits/measure-fold/227401f77483dba2ee346354e1f4f4d58f1129a0/reports/2026-10-05/gauge-c.md\"},],]\"method\":\"sample_day\"}"
+    }
+  },
+  "status": 7,
+  "result": 6,
+  "consensus_data": {
+    "votes": {
+      "0x4404Fb70d490c935758146f42A73DC850FF95C71": "agree",
+      "0x5310dcF075E0BD47d29B8ec6581F736C767f54D2": "idle",
+      "0x772ffCd1dF6Cc566eC4b8d3f4F4f8eBbb6B36C84": "agree",
+      "0x9ea87b28DcA2F79fe108CF06a4c13B4c876AC23d": "agree",
+      "0xE6BD8050758CB15fC88387223E31Ae2708B119dC": "disagree"
+    },
+    "leader_receipt": [
+      {
+        "execution_result": "SUCCESS",
+        "genvm_result": {
+          "stderr": "/py/libs/genlayer/gl/_internal/storage.py:21: UserWarning: Detected pickling storage class. Reading storage in nondet mode is not supported\n  warnings.warn(\n",
+          "stdout": "",
+          "raw_error": null,
+          "error_code": null,
+          "error_description": null
+        },
+        "mode": "leader",
+        "vote": null,
+        "calldata": {
+          "readable": "{\"args\":[\"2026-10-05\",[{\"id\":\"gauge-a\"\"sha256\":\"0141e0482939a8d374eee9c9ada08e712bea8b57574c4c140a42b88beb84715a\"\"url\":\"https://raw.githubusercontent.com/mahdidaawsh-commits/measure-fold/227401f77483dba2ee346354e1f4f4d58f1129a0/reports/2026-10-05/gauge-a.md\"},{\"id\":\"gauge-b\"\"sha256\":\"9c3a06d8b238f48967dc9abc7cd4f724e29b0bc4c43f9e145b9a4ea0de5ded82\"\"url\":\"https://raw.githubusercontent.com/mahdidaawsh-commits/measure-fold/227401f77483dba2ee346354e1f4f4d58f1129a0/reports/2026-10-05/gauge-b.md\"},{\"id\":\"gauge-c\"\"sha256\":\"4b839d029c7f4d2a6c7e2b32c4e64a8df3565b0383865872fc070c46c116f7ba\"\"url\":\"https://raw.githubusercontent.com/mahdidaawsh-commits/measure-fold/227401f77483dba2ee346354e1f4f4d58f1129a0/reports/2026-10-05/gauge-c.md\"},],]\"method\":\"sample_day\"}"
+        },
+        "eq_outputs": {
+          "0": {
+            "status": "return",
+            "payload": {
+              "readable": "{\"report\":{\"sources\":[{\"decision\":\"MEASURED\"\"index\":0\"normalized_nm\":10160000\"quote\":\"Harbor Basin on 2026-10-05, gauge A recorded an observed daily rainfall total of 10.16 mm.\"\"unit\":\"mm\"\"value\":\"10.16\"},{\"decision\":\"MEASURED\"\"index\":1\"normalized_nm\":10160000\"quote\":\"Gauge B's observed daily rainfall total for Harbor Basin on 2026-10-05 was 1.016 cm.\"\"unit\":\"cm\"\"value\":\"1.016\"},{\"decision\":\"MEASURED\"\"index\":2\"normalized_nm\":10160000\"quote\":\"Gauge C measured an observed daily rainfall total of 0.4 in for Harbor Basin on 2026-10-05.\"\"unit\":\"in\"\"value\":\"0.4\"},]}\"source_hashes\":[\"0141e0482939a8d374eee9c9ada08e712bea8b57574c4c140a42b88beb84715a\",\"9c3a06d8b238f48967dc9abc7cd4f724e29b0bc4c43f9e145b9a4ea0de5ded82\",\"4b839d029c7f4d2a6c7e2b32c4e64a8df3565b0383865872fc070c46c116f7ba\",]}"
+            }
+          }
+        },
+        "result": {
+          "status": "return",
+          "payload": {
+            "readable": "null"
+          }
+        }
+      },
+      {
+        "execution_result": "ERROR",
+        "genvm_result": {
+          "stderr": "Validator execution cancelled after quorum",
+          "stdout": "",
+          "raw_error": {
+            "fatal": false,
+            "causes": [
+              "VALIDATOR_QUORUM_REACHED"
+            ]
+          },
+          "error_code": "CONSENSUS_VALIDATOR_QUORUM_REACHED"
+        },
+        "mode": "validator",
+        "vote": "idle",
+        "result": {
+          "status": "contract_error",
+          "payload": "idle"
+        }
+      }
+    ],
+    "validators": [
+      {
+        "execution_result": "SUCCESS",
+        "genvm_result": {
+          "stderr": "/py/libs/genlayer/gl/_internal/storage.py:21: UserWarning: Detected pickling storage class. Reading storage in nondet mode is not supported\n  warnings.warn(\n",
+          "stdout": "",
+          "raw_error": null,
+          "error_code": null,
+          "error_description": null
+        },
+        "mode": "validator",
+        "vote": "disagree"
+      },
+      {
+        "execution_result": "SUCCESS",
+        "genvm_result": {
+          "stderr": "/py/libs/genlayer/gl/_internal/storage.py:21: UserWarning: Detected pickling storage class. Reading storage in nondet mode is not supported\n  warnings.warn(\n",
+          "stdout": "",
+          "raw_error": null,
+          "error_code": null,
+          "error_description": null
+        },
+        "mode": "validator",
+        "vote": "agree"
+      },
+      {
+        "execution_result": "SUCCESS",
+        "genvm_result": {
+          "stderr": "/py/libs/genlayer/gl/_internal/storage.py:21: UserWarning: Detected pickling storage class. Reading storage in nondet mode is not supported\n  warnings.warn(\n",
+          "stdout": "",
+          "raw_error": null,
+          "error_code": null,
+          "error_description": null
+        },
+        "mode": "validator",
+        "vote": "agree"
+      },
+      {
+        "execution_result": "SUCCESS",
+        "genvm_result": {
+          "stderr": "/py/libs/genlayer/gl/_internal/storage.py:21: UserWarning: Detected pickling storage class. Reading storage in nondet mode is not supported\n  warnings.warn(\n",
+          "stdout": "",
+          "raw_error": null,
+          "error_code": null,
+          "error_description": null
+        },
+        "mode": "validator",
+        "vote": "agree"
+      }
+    ]
+  },
+  "gaslimit": 3,
+  "nonce": 3,
+  "created_at": "2026-10-03T10:21:11.281986+00:00",
+  "leader_only": false,
+  "execution_mode": "NORMAL",
+  "origin_address": "0xb0C153447350359cA68D9B0e794bDB8c5B5ba30a",
+  "triggered_on": null,
+  "appeal_validators_timeout": false,
+  "sim_config": {
+    "signed_rollup_transaction": "0xf9040903808307a12094b7278a61aa25c888815afc32ad3cc52ff24fe57580b903a427241a99000000000000000000000000b0c153447350359ca68d9b0e794bdb8c5b5ba30a0000000000000000000000002516e6d7f49e8125a026874a4291a0858689d1bc0000000000000000000000000000000000000000000000000000000000000005000000000000000000000000000000000000000000000000000000000000000300000000000000000000000000000000000000000000000000000000000000a000000000000000000000000000000000000000000000000000000000000002d8f902d5b902d11604617267731554323032362d31302d30351d1e0269643c67617567652d61067368613235368404303134316530343832393339613864333734656565396339616461303865373132626561386235373537346334633134306134326238386265623834373135610375726ccc0868747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f6d616864696461617773682d636f6d6d6974732f6d6561737572652d666f6c642f323237343031663737343833646261326565333436333534653166346634643538663131323961302f7265706f7274732f323032362d31302d30352f67617567652d612e6d641e0269643c67617567652d62067368613235368404396333613036643862323338663438393637646339616263376364346637323465323962306263346334336639653134356239613465613064653564656438320375726ccc0868747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f6d616864696461617773682d636f6d6d6974732f6d6561737572652d666f6c642f323237343031663737343833646261326565333436333534653166346634643538663131323961302f7265706f7274732f323032362d31302d30352f67617567652d622e6d641e0269643c67617567652d63067368613235368404346238333964303239633766346432613663376532623332633465363461386466333536356230333833383635383732666330373063343663313136663762610375726ccc0868747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f6d616864696461617773682d636f6d6d6974732f6d6561737572652d666f6c642f323237343031663737343833646261326565333436333534653166346634643538663131323961302f7265706f7274732f323032362d31302d30352f67617567652d632e6d64066d6574686f645473616d706c655f6461790000000000000000008301e482a0b90b86509131c61b6d11930be300cf232d72d9c35d22d8d622e45941f18b60dea061f4dc9b66a8fb6b9f37dd02adfa13caf868bb1165ecaedbcf54569710144d12"
+  },
+  "value_credited": false,
+  "sender": "0xb0C153447350359cA68D9B0e794bDB8c5B5ba30a",
+  "recipient": "0x2516E6d7F49e8125A026874A4291a0858689d1bC",
+  "tx_id": "0x3487cdc1800f4ec6cebcf88a227b905d0c35219672972611f4a6c8621ce84af3",
+  "activator": "0x5310dcF075E0BD47d29B8ec6581F736C767f54D2",
+  "last_leader": "0x5310dcF075E0BD47d29B8ec6581F736C767f54D2",
+  "result_name": "MAJORITY_AGREE",
+  "num_of_rounds": "1",
+  "last_round": {
+    "round": "0",
+    "leader_index": "0",
+    "votes_committed": "5",
+    "votes_revealed": "5",
+    "appeal_bond": "0",
+    "rotations_left": "3",
+    "result": 6,
+    "round_validators": [
+      "0x5310dcF075E0BD47d29B8ec6581F736C767f54D2",
+      "0xE6BD8050758CB15fC88387223E31Ae2708B119dC",
+      "0x9ea87b28DcA2F79fe108CF06a4c13B4c876AC23d",
+      "0x4404Fb70d490c935758146f42A73DC850FF95C71",
+      "0x772ffCd1dF6Cc566eC4b8d3f4F4f8eBbb6B36C84"
+    ],
+    "validator_votes_hash": [
+      "0xe1f2abf31e402ea1ae092b1a5fe96a49c389ad90ef127467bc1efabbd1b1bd77",
+      "0x7f68bb599a1cc1c4e20fb8bbd6bbd2c8c85631e462acd6936598fb0c6b01c378",
+      "0x41a541e6914bb199b69c4e3d01510a6580129889f0d53935c639cd5434656a87",
+      "0xd27367d24b9097d9e22acbab11faf7f3123b658fa60e0c1b63132db6c1f4319b",
+      "0xf05115371fef076369c51bd7738a7dcaf267cba45ee1f1319615f2e0690c3ca4"
+    ],
+    "validator_votes": [
+      5,
+      2,
+      1,
+      1,
+      1
+    ],
+    "validator_votes_name": [
+      "IDLE",
+      "DISAGREE",
+      "AGREE",
+      "AGREE",
+      "AGREE"
+    ]
+  },
+  "type": 2,
+  "status_name": "FINALIZED"
+}
